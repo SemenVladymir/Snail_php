@@ -1,21 +1,7 @@
 <?php
-//$varData = 100000000000000;
-//$timeofday = gettimeofday();
-//$nowDate = sprintf('%d%d', $timeofday["sec"], $timeofday["usec"] / 1000);
-//var_dump($nowDate);
-//$varSec = $varData%60;
-//$varMin = intdiv($varData, 60)%60;
-//$varHours = intdiv(intdiv($varData, 3600),24)%24;
-//$varDays = intdiv(intdiv($varData, 3600), 24)%365;
-//$varYears = intdiv(intdiv($varData, 86400), 365);
-//
-//if ($varData > $nowDate)
-//    echo '<p style="color: red">Years - '.$varYears.', Days - '.$varDays.',  Time - '.$varHours.':'.$varMin.':'.$varSec. '</p>';
-//else
-//    echo '<p style="color: green">Years - '.$varYears.', Days - '.$varDays.',  Time - '.$varHours.':'.$varMin.':'.$varSec. '</p>';
 
-$arrSize = 10;
-$sqrSize = 50;
+$arrSize = 10;    //Size of the square
+$sqrSize = 50;    //The size in pixels of one tile of the square
 $route = true;
 $pozX = 0;
 $pozY = 0;
